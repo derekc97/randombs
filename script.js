@@ -13,7 +13,7 @@ function createRaidenCard () {
     randomNum = randomNum + 1;
     const picDiv = document.createElement("div");
     const raidenPic = document.createElement("img");
-    const url = "../pics/raiden" + randomNum + ".jpg";
+    const url = "./pics/raiden" + randomNum + ".jpg";
     console.log(url);
     raidenPic.src = url;
     picDiv.appendChild(raidenPic);
